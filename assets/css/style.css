@@ -395,6 +395,10 @@ fieldset {
     margin-top: 30px;
 }
 
+  #fixed {
+    margin-top: 30px;
+  }
+
 @media only screen and (max-width: 640px) {
   #wrapper {
         width: 480px;
@@ -438,5 +442,9 @@ fieldset {
     height: 421px;
     margin-right: 20px;
     margin-bottom: 20px;
+  }
+
+  #logo {
+    left: 12.48%;
   }
 }
