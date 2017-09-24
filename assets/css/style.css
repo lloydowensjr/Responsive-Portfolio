@@ -1,10 +1,4 @@
-/*
 
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
-
-*/
 
 html {
   height: 100%;
@@ -175,7 +169,7 @@ ul {
 }
 
 .main a:visted {
-    color: #a1a1a1;
+    color: hotpink;
 }
 
 .main a:hover {
@@ -184,7 +178,7 @@ ul {
 
 
 .main a:active {
-    color: ##a1a1a1;
+    color: blue;
 }
 
 .main ul{
@@ -363,4 +357,86 @@ fieldset {
 }
 :-ms-input-placeholder {
  color:#888;
+}
+
+@media only screen and (max-width: 980px) {
+#logo {    left: 3.2%;}
+}
+
+@media only screen and (max-width: 768px) {
+  
+  header {
+    margin-bottom: 30px;
+  }
+
+  #wrapper {width: 600px}
+  
+  #logo {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+    padding: 36px;
+    background-color: #a1d8d5;
+    width: 15%;
+    height: auto;
+    left: 10.88%;
+    position: absolute;
+    top: 28px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  #bio {
+    margin: 0 auto;
+  }
+  
+  #social {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 640px) {
+  #wrapper {
+        width: 480px;
+  }
+  
+  #logo {
+        font-family: 'Alfa Slab One', cursive;
+    font-size: 16px;
+    padding: 36px;
+    background-color: #a1d8d5;
+    width: 15%;
+    height: auto;
+    left: 15.48%;
+    position: absolute;
+    top: 32px;
+  }
+
+  header {
+      margin-bottom: 30px;
+  }
+
+  #bio {
+      width: 420px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+  }
+
+  #social {
+        width: 460px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+  }
+
+  .main {
+    width: 40%;
+    right: 1%;
+  }
+
+  #bio-image {
+    width: 420px;
+    height: 421px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
 }
